@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Image Browser</title>
+<style>
+.posi {
+	
+	position : absolute;
+	
+    
+    margin-left: 400px;
+    overflow: hidden;
+    display: none
+}
+
+:target {
+	display: block;
+  
+}
+</style>
+</head>
+<body>
+<header>
+	<h1>Image Browser<h2>
+</header>
+
+<figure id = "figure1" class = "posi">
+	
+		<img src="puppet.jpg" width="600" height="345">
+		<figcaption>Puppet</figcaption>
+	
+</figure>
+<figure id = "figure2" class = "posi">
+	
+		<img src="man.jpg" width="600" height="345">
+		<figcaption>man</figcaption>
+	
+</figure>
+<figure id = "figure3" class = "posi">
+	
+		<img src="tree.jpg" width="600" height="345">
+		<figcaption>tree</figcaption>
+	
+</figure>
+<figure id = "figure4" class = "posi">
+	
+		<img src="egg.jpg" width="600" height="345">
+		<figcaption>egg</figcaption>
+	
+</figure>
+<figure id = "figure5" class = "posi">
+	
+		<img src="hourglass.jpg" width="600" height="345">
+		<figcaption>hourglass</figcaption>
+	
+</figure>
+
+<footer>
+		<a href="#figure1" target= "_self"><img src="puppet.jpg" height=50 width=50></a>
+		<a href="#figure2" target= "_self"><img src="man.jpg" height=50 width=50></a>
+		<a href="#figure3" target= "_self"><img src="tree.jpg" height=50 width=50></a>
+		<a href="#figure4" target= "_self"><img src="egg.jpg" height=50 width=50></a>
+		<a href="#figure5" target= "_self"><img src="hourglass.jpg" height=50 width=50></a>
+
+</footer>
+
+
+
+</body>
+</html>
